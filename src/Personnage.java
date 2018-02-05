@@ -1,7 +1,7 @@
 /**
  * Created by gilra1731814 on 2018-02-01.
  */
-public abstract class personnage {
+public abstract class Personnage {
     protected int pv=0;
     protected int def=0;
     protected String nom;
@@ -18,6 +18,6 @@ public abstract class personnage {
 
     public void setNom(String nom) {this.nom = nom;}
 
-    protected abstract void attaquer ();
+    protected abstract void attaquer (Personnage personnage);
 
 }
