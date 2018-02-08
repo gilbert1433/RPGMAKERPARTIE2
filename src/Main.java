@@ -1,3 +1,6 @@
+import Personnage.*;
+import Sort.*;
+
 import java.util.Scanner;
 
 /**
@@ -18,7 +21,7 @@ public class Main {
         System.out.println("Bienvenue dans RPGMAKER!");
         while (choix == true) {
             System.out.println("Veuillez choisir le personnage 1:");
-            System.out.println("1.Barbare\n2.Paladin\n3.Magicien Noir\n4.Magicien Rouge");
+            System.out.println("1.Personnage.Barbare\n2.Personnage.Paladin\n3.Personnage.Magicien Noir\n4.Personnage.Magicien Rouge");
             choix1 = sc.nextInt();
             if (choix1 <= 4&&choix1>=1) {
                 System.out.println("Votre choix: " + choix1);
@@ -35,7 +38,7 @@ public class Main {
         choix = true;
         while (choix == true) {
             System.out.println("Veuillez choisir le personnage 2:");
-            System.out.println("1.Barbare\n2.Paladin\n3.Magicien Noir\n4.Magicien Rouge");
+            System.out.println("1.Personnage.Barbare\n2.Personnage.Paladin\n3.Personnage.Magicien Noir\n4.Personnage.Magicien Rouge");
             choix2 = sc.nextInt();
             if (choix2 <= 4&&choix2>=1) {
                 System.out.println("Votre choix: " + choix2);

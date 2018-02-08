@@ -1,3 +1,5 @@
+package Personnage;
+
 /**
  * Created by gilra1731814 on 2018-02-01.
  */
@@ -18,6 +20,6 @@ public abstract class Personnage {
 
     public void setNom(String nom) {this.nom = nom;}
 
-    protected abstract void attaquer (Personnage personnage);
+    public abstract void attaquer (Personnage personnage);
 
 }
