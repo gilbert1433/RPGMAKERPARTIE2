@@ -8,6 +8,7 @@ public class Poison extends Sort {
         setNom("Poison");
     }
     public void lancerSort(Personnage personnage1){
+        System.out.println((2+(2*nbtour)));
         personnage1.setPv(personnage1.getPv()-(2+(2*nbtour)));
         nbtour++;
     }

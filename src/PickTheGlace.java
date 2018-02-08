@@ -7,6 +7,7 @@ public class PickTheGlace extends Sort {
         setNom("PickTheGlace");
     }
     public void lancerSort (Personnage personnage1){
+        System.out.print(5);
         personnage1.setPv((personnage1.getPv()-7)-personnage1.getDef());
     }
 }

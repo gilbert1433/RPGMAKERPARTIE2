@@ -7,6 +7,7 @@ public class BoolTheFeu extends Sort {
         setNom("BoolTheFeu");
     }
     public void lancerSort (Personnage personnage1){
+        System.out.println(5);
         personnage1.setPv(personnage1.getPv()-5);
     }
 }

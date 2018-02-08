@@ -9,7 +9,11 @@ public class CoupMortel extends Sort{
     public void lancerSort(Personnage personnage1){
         int random=(int)(Math.random()*10+1);
         if(random==1) {
+            System.out.println(personnage1.getPv());
             personnage1.setPv(0);
+        }
+        else{
+            System.out.println(0);
         }
     }
 }
