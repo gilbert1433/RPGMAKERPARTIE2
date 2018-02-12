@@ -10,7 +10,7 @@ public class CoupMortel extends Sort{
         setCout(10);
         setNom("CoupMortel");
     }
-    public void lancerSort(Personnage personnage1){
+    public void lancerSort(Personnage personnage1, Magicien magicien){
         int random=(int)(Math.random()*10+1);
         if(random==1) {
             System.out.println(personnage1.getPv());

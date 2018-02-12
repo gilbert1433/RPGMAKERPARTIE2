@@ -7,6 +7,7 @@ public abstract class Personnage {
     protected int pv=0;
     protected int def=0;
     protected String nom;
+    private int degats=0;
 
     public int getPv() {return pv;}
 
@@ -21,5 +22,7 @@ public abstract class Personnage {
     public void setNom(String nom) {this.nom = nom;}
 
     public abstract void attaquer (Personnage personnage);
+
+    public abstract int degatsArmes();
 
 }

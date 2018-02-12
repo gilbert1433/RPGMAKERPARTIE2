@@ -27,7 +27,7 @@ public abstract class Magicien extends Personnage {
             System.out.println("Il fait "+tabSort[random].getNom());
             System.out.println("Il reste "+getMana()+" de mana.");
             System.out.print("Le "+personnage1.getNom()+" perds ");
-            tabSort[random].lancerSort(personnage1);
+            tabSort[random].lancerSort(personnage1,this);
             System.out.println(" pv.");
 
             System.out.println("Il lui reste "+ personnage1.getPv());

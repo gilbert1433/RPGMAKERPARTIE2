@@ -1,6 +1,6 @@
 package Sort;
 
-import Personnage.Personnage;
+import Personnage.*;
 
 /**
  * Created by gilra1731814 on 2018-02-05.
@@ -18,7 +18,7 @@ public abstract class Sort {
 
     public void setCout(int cout) {this.cout = cout;}
 
-    public void lancerSort(Personnage personnage1){}
+    public void lancerSort(Personnage personnage1, Magicien magicien){}
 
 
 }
